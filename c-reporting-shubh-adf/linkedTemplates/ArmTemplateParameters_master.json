@@ -14,6 +14,9 @@
 		"Is_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://shubhcovidreportingdl.dfs.core.windows.net/"
 		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/c165ffd8-b3c9-4ef7-a97e-ec022fc4a71f/resourceGroups/covid-reporting-shubh/providers/Microsoft.Storage/storageAccounts/shubhcovidreportingsa"
+		},
 		"containerUri": {
 			"value": ""
 		},
