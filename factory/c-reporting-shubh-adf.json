@@ -1,0 +1,15 @@
+{
+	"name": "c-reporting-shubh-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "indiasouthcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "125ee91d-0d94-4857-a2de-cfb2fae12d80",
+		"tenantId": "302086ae-80c7-4dfc-87ec-754240b8b305"
+	}
+}
