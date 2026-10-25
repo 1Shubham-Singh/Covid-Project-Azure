@@ -23,6 +23,10 @@
 			"type": "string",
 			"defaultValue": "/subscriptions/c165ffd8-b3c9-4ef7-a97e-ec022fc4a71f/resourceGroups/covid-reporting-shubh/providers/Microsoft.Storage/storageAccounts/shubhcovidreportingsa"
 		},
+		"Is_http_opendata_ecdc_eu_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://github.com"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -58,6 +62,9 @@
 					},
 					"Is_adls_covidreportingdl_properties_typeProperties_url": {
 						"value": "[parameters('Is_adls_covidreportingdl_properties_typeProperties_url')]"
+					},
+					"Is_http_opendata_ecdc_eu_properties_typeProperties_url": {
+						"value": "[parameters('Is_http_opendata_ecdc_eu_properties_typeProperties_url')]"
 					},
 					"tr_ingest_population_data_properties_typeProperties_scope": {
 						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"

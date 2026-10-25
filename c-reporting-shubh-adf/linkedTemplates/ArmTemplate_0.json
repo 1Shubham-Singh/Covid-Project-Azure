@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://shubhcovidreportingdl.dfs.core.windows.net/"
 		},
+		"Is_http_opendata_ecdc_eu_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://github.com"
+		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/c165ffd8-b3c9-4ef7-a97e-ec022fc4a71f/resourceGroups/covid-reporting-shubh/providers/Microsoft.Storage/storageAccounts/shubhcovidreportingsa"
@@ -54,6 +58,21 @@
 						"type": "SecureString",
 						"value": "[parameters('Is_adls_covidreportingdl_accountKey')]"
 					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/Is_http_opendata_ecdc_eu')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "HttpServer",
+				"typeProperties": {
+					"url": "[parameters('Is_http_opendata_ecdc_eu_properties_typeProperties_url')]",
+					"enableServerCertificateValidation": true,
+					"authenticationType": "Anonymous"
 				}
 			},
 			"dependsOn": []
