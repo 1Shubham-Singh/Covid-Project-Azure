@@ -15,10 +15,16 @@
 			"value": "https://shubhcovidreportingdl.dfs.core.windows.net/"
 		},
 		"Is_http_opendata_ecdc_eu_properties_typeProperties_url": {
-			"value": "https://github.com"
+			"value": "https://raw.githubusercontent.com"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/c165ffd8-b3c9-4ef7-a97e-ec022fc4a71f/resourceGroups/covid-reporting-shubh/providers/Microsoft.Storage/storageAccounts/shubhcovidreportingsa"
+		},
+		"tr_injest_hospital_admissions_data_properties_pl_injest_ecdc_data_parameters_sourceRelativeURL": {
+			"value": "cloudboxacademy/covid19/main/ecdc_data/hospital_admissions.csv"
+		},
+		"tr_injest_hospital_admissions_data_properties_pl_injest_ecdc_data_parameters_sinkFileName": {
+			"value": "ecdc_data/hospital_admissions.csv"
 		}
 	}
 }
