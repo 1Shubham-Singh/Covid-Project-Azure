@@ -581,11 +581,10 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "Day",
-						"interval": 1,
-						"startTime": "2026-10-26T11:13:00",
-						"timeZone": "India Standard Time",
-						"schedule": {}
+						"frequency": "Minute",
+						"interval": 15,
+						"startTime": "2026-10-26T11:18:00",
+						"timeZone": "India Standard Time"
 					}
 				}
 			},
