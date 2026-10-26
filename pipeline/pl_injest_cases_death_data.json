@@ -51,7 +51,7 @@
 						"referenceName": "ds_cases_deaths_raw_csv_http",
 						"type": "DatasetReference",
 						"parameters": {
-							"RelativeURL": {
+							"relativeURL": {
 								"value": "@variables('sourceRelativeURL')",
 								"type": "Expression"
 							}
@@ -75,11 +75,11 @@
 		"variables": {
 			"sourceRelativeURL": {
 				"type": "String",
-				"defaultValue": "cloudboxacademy/covid19/raw/main/ecdc_data/hospital_admission.csv"
+				"defaultValue": "cloudboxacademy/covid19/main/ecdc_data/hospital_admissions.csv"
 			},
 			"sinkFileName": {
 				"type": "String",
-				"defaultValue": "hospital_admission.csv"
+				"defaultValue": "covid19/hospital_admissions.csv"
 			}
 		},
 		"annotations": []
