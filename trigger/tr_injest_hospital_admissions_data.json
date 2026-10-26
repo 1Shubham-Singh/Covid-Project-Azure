@@ -1,0 +1,17 @@
+{
+	"name": "tr_injest_hospital_admissions_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-10-26T11:10:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
