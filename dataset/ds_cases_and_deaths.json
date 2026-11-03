@@ -1,5 +1,5 @@
 {
-	"name": "df_cases_and_deaths",
+	"name": "ds_cases_and_deaths",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Is_adls_covidreportingdl",
