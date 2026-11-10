@@ -672,11 +672,11 @@
 				"parameters": {
 					"sourceRelativeURL": {
 						"type": "string",
-						"defaultValue": "cloudboxacademy/covid19/raw/main/ecdc_data/cases_deaths.csv"
+						"defaultValue": "cloudboxacademy/covid19/raw/main/ecdc_data/country_response.csv"
 					},
 					"sinkFileName": {
 						"type": "string",
-						"defaultValue": "cases_deaths.csv"
+						"defaultValue": "country_response.csv"
 					},
 					"sourceBaseURL": {
 						"type": "string",
