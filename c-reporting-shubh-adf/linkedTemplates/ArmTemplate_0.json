@@ -284,7 +284,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"fileName": "ecdc_file_list_for_2_files.json",
+						"fileName": "ecdc_file_list.json",
 						"container": "configs"
 					}
 				},
@@ -671,13 +671,16 @@
 				},
 				"parameters": {
 					"sourceRelativeURL": {
-						"type": "string"
+						"type": "string",
+						"defaultValue": "cloudboxacademy/covid19/raw/main/ecdc_data/cases_deaths.csv"
 					},
 					"sinkFileName": {
-						"type": "string"
+						"type": "string",
+						"defaultValue": "cases_deaths.csv"
 					},
 					"sourceBaseURL": {
-						"type": "string"
+						"type": "string",
+						"defaultValue": "https://github.com/"
 					}
 				},
 				"annotations": []
