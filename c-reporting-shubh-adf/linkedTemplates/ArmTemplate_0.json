@@ -517,6 +517,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "cases_deaths.csv",
 						"folderPath": "ecdc/raw/ecdc/cases_deaths",
 						"fileSystem": "raw"
 					},
