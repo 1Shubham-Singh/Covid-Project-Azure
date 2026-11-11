@@ -870,8 +870,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "case_deaths.csv",
-						"folderPath": "ecdc/case_deaths",
+						"folderPath": "ecdc/raw/ecdc/cases_deaths",
 						"fileSystem": "raw"
 					},
 					"columnDelimiter": ",",
@@ -899,8 +898,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "hospital_admission.csv",
-						"folderPath": "ecdc/hospital_admission",
+						"folderPath": "ecdc/raw/ecdc/hospital_admission",
 						"fileSystem": "raw"
 					},
 					"columnDelimiter": ",",
